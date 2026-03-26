@@ -1,19 +1,258 @@
-<header>
-  <nav>Logo | Home About Skills Projects Experience Education Contact</nav>
-  <section class="hero">
-    <h1>Anna Buczak</h1>
-    <h2>Cyber Security | Penetration Testing</h2>
-    <p>BSc Cyber Security student focused on offensive and defensive security, labs, and practical testing.</p>
-    <a href="#contact">Get In Touch</a>
-    <a href="#projects">View Projects</a>
-  </section>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Buczak | Cyber Security</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+</head>
+<body>
 
-<section id="about">...</section>
-<section id="skills">3 grouped skill cards</section>
-<section id="projects">project cards with tags</section>
-<section id="experience">timeline/cards</section>
-<section id="education">timeline/cards</section>
-<section id="certifications">new</section>
-<section id="contact">email + GitHub + LinkedIn</section>
-<footer>© 2026 Anna Buczak</footer>
+    <!-- NAV -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href="#home"><strong>Anna Buczak</strong></a>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <h1>Anna Buczak</h1>
+            <p class="subtitle">Cyber Security Student | Penetration Testing</p>
+            <p>
+                BSc Cyber Security student focused on offensive and defensive security,
+                hands-on labs, vulnerability analysis, and practical penetration testing.
+                I build my skills through structured learning, lab environments, and
+                continuous technical practice.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p class="section-intro">
+                I am a BSc Cyber Security student at the University of Essex Online,
+                developing practical experience across security testing, Linux,
+                networking, and cyber defence.
+            </p>
+
+            <div class="grid">
+                <div class="card">
+                    <h3>Profile</h3>
+                    <p>
+                        I am building a strong foundation in cyber security through
+                        academic study and hands-on platforms including TryHackMe,
+                        Hack The Box, and personal lab work.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Focus Areas</h3>
+                    <p>
+                        My main interests include penetration testing, vulnerability
+                        assessment, system security, networking, and practical
+                        security operations.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Details</h3>
+                    <div class="info-list">
+                        <p><strong>Degree:</strong> <span>BSc Cyber Security</span></p>
+                        <p><strong>University:</strong> <span>University of Essex Online</span></p>
+                        <p><strong>Status:</strong> <span>2024 – Present</span></p>
+                        <p><strong>GitHub:</strong> <span>github.com/Annabuczak</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <p class="section-intro">
+                A growing technical skill set built through academic study, lab
+                practice, and hands-on cyber security challenges.
+            </p>
+
+            <div class="grid">
+                <div class="card">
+                    <h3>Security</h3>
+                    <div class="tags">
+                        <span class="tag">Cyber Security</span>
+                        <span class="tag">Penetration Testing</span>
+                        <span class="tag">Vulnerability Testing</span>
+                        <span class="tag">Security Labs</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Technical</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Linux</span>
+                        <span class="tag">Networking</span>
+                        <span class="tag">Cryptography</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Platforms & Practice</h3>
+                    <div class="tags">
+                        <span class="tag">TryHackMe</span>
+                        <span class="tag">Hack The Box</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Hands-on Labs</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <p class="section-intro">
+                Practical work and learning projects that demonstrate technical
+                development and hands-on cyber security experience.
+            </p>
+
+            <div class="grid">
+                <div class="card">
+                    <h3>Cyber Labs</h3>
+                    <p>
+                        A collection of hands-on security labs, exercises, and
+                        technical practice focused on exploitation, analysis,
+                        and cyber security learning.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Security Labs</span>
+                        <span class="tag">Linux</span>
+                        <span class="tag">Testing</span>
+                    </div>
+                    <div class="contact-links">
+                        <a href="https://github.com/Annabuczak/Cyber-labs" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>TryHackMe Learning Path</h3>
+                    <p>
+                        Structured practical training across penetration testing,
+                        system enumeration, web security, and cyber defence concepts.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">TryHackMe</span>
+                        <span class="tag">Offensive Security</span>
+                        <span class="tag">Learning</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Hack The Box Practice</h3>
+                    <p>
+                        Real-world style challenges used to improve technical
+                        problem-solving, enumeration skills, and exploitation workflow.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Hack The Box</span>
+                        <span class="tag">Challenges</span>
+                        <span class="tag">Practice</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <p class="section-intro">
+                Practical exposure gained through self-driven lab work, online
+                training platforms, and technical study.
+            </p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <p class="date">Ongoing</p>
+                    <h3>Cyber Security Lab Practice</h3>
+                    <p>
+                        Building practical skills in vulnerability testing, system
+                        enumeration, Linux usage, networking concepts, and security
+                        analysis through repeated lab-based exercises.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <p class="date">Ongoing</p>
+                    <h3>Independent Technical Development</h3>
+                    <p>
+                        Expanding knowledge through hands-on work with TryHackMe,
+                        Hack The Box, and personal cyber security study projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education">
+            <h2>Education</h2>
+            <p class="section-intro">
+                Academic study supporting a practical and continuously developing
+                cyber security skill set.
+            </p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <p class="date">2024 – Present</p>
+                    <h3>BSc Cyber Security</h3>
+                    <p>University of Essex Online</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p class="section-intro">
+                Open to opportunities, collaboration, and connections in cyber security.
+            </p>
+
+            <div class="card">
+                <div class="info-list">
+                    <p><strong>Email:</strong> <span>your.email@example.com</span></p>
+                    <p><strong>GitHub:</strong> <span>github.com/Annabuczak</span></p>
+                    <p><strong>Location:</strong> <span>United Kingdom</span></p>
+                </div>
+
+                <div class="contact-links">
+                    <a href="https://github.com/Annabuczak" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+                    <a href="mailto:your.email@example.com" class="btn btn-primary">Email Me</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 Anna Buczak. Built for a cyber security portfolio.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
